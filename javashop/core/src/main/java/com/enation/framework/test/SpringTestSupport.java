@@ -36,7 +36,7 @@ import com.enation.framework.util.StringUtil;
  */
 @RunWith(EopJunit4ClassRunner.class)
 @WebAppConfiguration(value = "src/main/webapp")
-@ContextConfiguration("classpath*:spring_cfg/*.xml")
+@ContextConfiguration(value = "classpath*:spring_cfg/*.xml")
 @Rollback(true)
 @Transactional
 //mock 静态方法未成功，暂时注释

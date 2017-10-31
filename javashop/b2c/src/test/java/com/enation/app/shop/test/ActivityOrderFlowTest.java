@@ -1,8 +1,5 @@
 package com.enation.app.shop.test;
 
-
-
-
 import java.util.Map;
 
 import org.junit.Assert;

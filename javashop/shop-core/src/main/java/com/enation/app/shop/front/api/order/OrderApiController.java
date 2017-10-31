@@ -325,9 +325,11 @@ public class OrderApiController {
 		order.setAddress_id(address.getAddr_id());//保存本订单的会员id
 
 		/**发票*/
-
-		Integer receipt = Integer.parseInt(request.getParameter("receipt").toString());
-		order.setReceipt(receipt);
+		Integer receipt = -1;
+		if(request.getParameter("receipt") != null) {
+			receipt = Integer.parseInt(request.getParameter("receipt").toString());
+			order.setReceipt(receipt);
+		}
 		/**判断是否需要发票*/
 		if(receipt==1){
 			String receipt_title = request.getParameter("receiptTitle");

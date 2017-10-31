@@ -17,6 +17,4 @@ public class EopJunit4ClassRunner extends SpringJUnit4ClassRunner {
 			System.err.println("Cannot Initialize log4j");
 		}
 	}
-
-
 }

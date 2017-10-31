@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="b2c" />
+        <module name="b2c-wap" />
+        <module name="cms-core" />
+        <module name="core" />
+        <module name="shop-core" />
+        <module name="weixin" />
+        <module name="zt-sms" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="b2c" target="1.6" />
+      <module name="b2c-wap" target="1.5" />
+      <module name="cms-core" target="1.6" />
+      <module name="core" target="1.6" />
+      <module name="javashop" target="1.5" />
+      <module name="shop-core" target="1.6" />
+      <module name="weixin" target="1.6" />
+      <module name="zt-sms" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
